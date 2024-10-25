@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<header lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Strona Główna</title>
+</head>
+<body>
+    <nav class="menu">
+        <a href="start.html" class="menu-button">START</a>
+        <a href="projekty.html" class="menu-button">PROJEKTY</a>
+        <a href="kontakt.html" class="menu-button">KONTAKT</a>
+    </nav>
+    <style>
+   body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('cielica żułf.jpeg') no-repeat center center fixed; 
+    background-size: cover; 
+}
+
+.site-header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    text-align: center;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    z-index: 1; 
+}
+
+.menu-button {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(0, 123, 255, 0.8); 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu-button:hover {
+    background-color: rgba(0, 86, 179, 0.8); 
+}
+
+
+
+
+
+    </style>
+</body>
+</header>
+</html>
